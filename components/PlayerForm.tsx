@@ -87,6 +87,7 @@ const PlayerForm: React.FC = () => {
                 placeholder="UHG"
                 value={project}
                 onChange={(e) => setProject(e.target.value)}
+                maxLength={20}
               />
               {errors.project && (
                 <div className="text-danger">{errors.project}</div>
