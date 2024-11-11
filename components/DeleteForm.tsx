@@ -30,11 +30,7 @@ const DeleteForm: React.FC<DeleteFormProps> = ({ id, show, handleClose }) => {
         <Button variant="secondary" onClick={handleClose}>
           Cancel
         </Button>
-        <Button
-          variant="primary"
-          onClick={() => handleDelete(id)}
-          className="delete-btn"
-        >
+        <Button onClick={() => handleDelete(id)} className="delete-btn">
           Delete
         </Button>
       </Modal.Footer>

@@ -49,7 +49,7 @@ const PlayerForm: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Button variant="primary" onClick={handleShow} className="add-btn">
+      <Button onClick={handleShow} className="add-btn">
         New Player
       </Button>
       <Modal
@@ -112,7 +112,7 @@ const PlayerForm: React.FC = () => {
               >
                 Close
               </Button>
-              <Button type="submit" variant="primary" className="add-save-btn">
+              <Button type="submit" className="add-save-btn">
                 Save Changes
               </Button>
             </div>
